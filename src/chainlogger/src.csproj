@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Om</RootNamespace>
+    <AssemblyName>src</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>Om.Chainlogger</PackageId>
+    <Authors>Open Money</Authors>
+    <Company>Open Money</Company>
+    <Product>Chainlogger</Product>
+    <Description>Simple csharp package for using Chain Logger on omChain Jupiter</Description>
+    <Copyright>2021</Copyright>
+    <PackageProjectUrl>www.openmoney.com.tr</PackageProjectUrl>
+    <RepositoryUrl>github.com/Open-Money/chainlogger-csharp-dev</RepositoryUrl>
+    <RepositoryType>package</RepositoryType>
+    <PackageTags>Chainlogger Chain Logger Blockchain block Ethereum</PackageTags>
+    <PackageReleaseNotes>Simple csharp package for using Chain Logger on omChain Jupiter</PackageReleaseNotes>
+    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <NeutralLanguage></NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nethereum.Web3" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>
