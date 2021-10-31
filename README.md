@@ -1,4 +1,4 @@
-# chainlogger-csharp-dev
+# chainlogger-csharp
 Simple csharp package for using Chain Logger on omChain Jupiter
 
 ### ABI:
